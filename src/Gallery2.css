@@ -1,0 +1,69 @@
+@import 'https://fonts.googleapis.com/css?family=Josefin+Slab';
+.main-content {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+content {
+  flex-wrap: wrap;
+  width: 80%;
+  column-count: 3;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+li {
+  height: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-style: 'Josefin Slab', sans-serif;
+}
+li img {
+  width: 100px;
+  padding-right: 10px;
+}
+li a {
+  text-decoration: none;
+  vertical-align: top;
+}
+li a:hover {
+  color: #5f9ea0;
+  font-style: italic;
+}
+h1 {
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+h2 {
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+.gallery-image-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-image {
+  width: 300px;
+  padding: 10px;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  font-size: 30px;
+  break-inside: avoid;
+}
+.gallery-image img {
+  width: 300px;
+  }
+.gallery-image a {
+  text-decoration: none;
+  color: #0d0d0d;
+  width: 300px;
+}
+.gallery-image a:hover {
+  color: #5f9ea0;
+  font-style: italic;
+}

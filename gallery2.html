@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Breakfast Album</title>
+</head>
+<style>
+@import 'https://fonts.googleapis.com/css?family=Josefin+Slab';
+.main-content {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+sidebar {
+  width: 15%;
+}
+content {
+  flex-wrap: wrap;
+  width: 80%;
+  column-count: 3;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+li {
+  height: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-style: 'Josefin Slab', sans-serif;
+}
+li img {
+  width: 100px;
+  padding-right: 10px;
+}
+li a {
+  text-decoration: none;
+  vertical-align: top;
+}
+li a:hover {
+  color: #5f9ea0;
+  font-style: italic;
+}
+h1 {
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+h2 {
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+.gallery-image-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-image {
+  width: 320px;
+  padding: 10px;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  font-size: 30px;
+  break-inside: avoid;
+}
+.gallery-image img {
+  width: 320px;
+  }
+.gallery-image a {
+  text-decoration: none;
+  color: #0d0d0d;
+  width: 320px;
+}
+.gallery-image a:hover {
+  color: #5f9ea0;
+  font-style: italic;
+}
+</style>
+<body>
+<header>
+<div><img src=""></div>
+<div><h1>Breakfast</h1></div>
+</header>
+<div class="main-content">
+<sidebar>
+<ul>
+<li><a href=""><img src="./images/breakfast/donuts.jpg">Breakfast</a></li>
+<li><a href=""><img src="./images/lunch/garden-salad.jpg">Lunch Specials</a></li>
+<li><a href=""><img src="./images/appetizers/cheese-plate.jpg">Appetizers</a></li>
+<li><a href=""><img src="./images/dinner/pork-chop.jpg">Entrees</a></li>
+<li><a href=""><img src="./images/beverages/blueberry-gin.jpg">Beverages</a></li>
+<li><a href=""><a href=""><img src="./images/dessert/pound-cake.jpg">Dessert</a></li>
+</ul>
+</sidebar>
+<content>
+<div class="gallery-image"><a href=""><img src="./images/breakfast/assorted-pastries.jpg">Assorted Pastries</a></div>
+<div class="gallery-image"><a href=""><img src="./images/breakfast/chicken-n-waffles.jpg">Chicken and Waffles</a></div>
+<div class="gallery-image"><a href=""><img src="./images/breakfast/donuts.jpg">Donuts</a></div>
+<div class="gallery-image"><a href=""><img src="./images/breakfast/granola-fruit.jpg">Granola and Fruit</a></div>
+<div class="gallery-image"><a href=""><img src="./images/breakfast/latte.jpg">Latte</a></div>
+<div class="gallery-image"><a href=""><img src="./images/breakfast/strawberry-toast.jpg">Toast with Strawberry Jam</a></div>
+</content>
+</div>
+</body>
+</html>

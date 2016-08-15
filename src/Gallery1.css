@@ -1,0 +1,36 @@
+@import 'https://fonts.googleapis.com/css?family=Josefin+Slab';
+h1 {
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+h2 {
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+.gallery-image-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.gallery-image {
+  width: 400px;
+  padding: 10px;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  font-size: 30px;
+}
+.gallery-image img {
+  width: 400px;
+  }
+.gallery-image a {
+  text-decoration: none;
+  color: #0d0d0d;
+
+}
+.gallery-image a:hover {
+  color: #5f9ea0;
+  font-style: italic;
+}

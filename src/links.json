@@ -1,0 +1,207 @@
+{
+  "links": [
+    {
+      "albumName": "Breakfast",
+      "albumImage": "./images/breakfast/donuts.jpg"
+    },
+    {
+    "albumName": "Lunch Specials",
+    "albumImage": "./images/lunch/garden-salad.jpg"
+    },
+    {
+    "albumName": "Appetizers",
+    "albumImage": "./images/appetizers/cheese-plate.jpg"
+    },
+    {
+      "albumName": "Entrees",
+      "albumImage": "./images/dinner/pork-chop.jpg"
+    },
+    {
+      "albumName": "Beverages",
+      "albumImage": "./images/beverages/blueberry-gin.jpg"
+    },
+    {
+      "albumName": "Dessert",
+      "albumImage": "./images/dessert/pound-cake.jpg"
+    },
+    {
+     "name": "Assorted Pastries",
+     "album": "Breakfast",
+     "image": "./images/breakfast/assorted-pastries.jpg"
+  },
+  {
+    "name": "Chicken and Waffles",
+    "album": "Breakfast",
+    "image": "./images/breakfast/donuts.jpg"
+  },
+   {
+    "name": "Donuts",
+    "album": "Breakfast",
+    "image": "./images/breakfast/granola-fruit.jpg"
+  },
+  {
+    "name": "Latte",
+    "album": "Breakfast",
+    "image": "./images/breakfast/latte.jpg"
+  },
+  {
+    "name": "Strawberry Toast",
+    "album": "Breakfast",
+    "image": "./images/breakfast/strawberry-toast.jpg"
+  },
+  {
+    "name": "Burger",
+    "album": "Lunch Specials",
+    "image": "./images/lunch/burger.jpg"
+  },
+  {
+    "name": "Garden Salad",
+    "album": "Lunch Specials",
+    "image": "./images/lunch/garden-salad.jpg"
+  },
+   {
+    "name": "Gumbo",
+    "album": "Lunch Specials",
+    "image": "./images/lunch/gumbo.jpg"
+  },
+   {
+    "name": "Pizza",
+    "album": "Lunch Specials",
+    "image": "./images/lunch/pizza.jpg"
+  },
+  {
+    "name": "Pressed Sandwich",
+    "album": "Lunch Specials",
+    "image": "./images/lunch/pressed-sandwich.jpg"
+  },
+  {
+    "name": "Tomato Bisk",
+    "album": "Lunch Specials",
+    "image": "./images/lunch/tomato-bisk.jpg"
+  },
+  {
+    "album-name": "Beverages",
+    "image": "./images/beverages/blueberry-gin.jpg"
+  },
+   {
+    "name": "Berry Spritz",
+    "album": "Beverages",
+    "image": "./images/beverages/berry-spritz.jpg"
+  },
+  {
+    "name": "Blueberry Gin",
+    "album": "Beverages",
+    "image": "./images/beverages/blueberry-gin.jpg"
+  },
+  {
+    "name": "Craft Beer",
+    "album": "Beverages",
+    "image": "./images/beverages/craft-beer.jpg"
+  },
+   {
+    "name": "Dark and Stormy",
+    "album": "Beverages",
+    "images": "./images/beverages/dark-stormy.jpg"
+  },
+  {
+    "name": "Mint Julip",
+    "album": "Beverages",
+    "images": "./images/beverages/mint-julip.jpg"
+  },
+   {
+    "name": "Wine",
+    "album": "Beverages",
+    "images": "./images/beverages/wine.jpg"
+  },
+  {
+    "name": "Bread",
+    "album": "Appetizers",
+    "image": "./images/appetizers/bread.jpg"
+  },
+   {
+    "name": "Cheese Plate",
+    "album": "Appetizers",
+    "image": "./images/appetizers/cheese-plate.jpg"
+  },
+  {
+    "name": "Fruit Bowl",
+    "album": "Appetizers",
+    "image": ".images/appetizers/fruit-bowl.jpg"
+  },
+  {
+    "name": "Oysters",
+    "album": "Appetizers",
+    "image": "./images/appetizers/oysters.jpg"
+  },
+  {
+    "name": "Quiche",
+    "album": "Appetizers",
+    "image": "./images/appetizers/quiche.jpg"
+  },
+   {
+    "name": "Side Salad",
+    "album": "Appetizers",
+    "image": "./images/appetizers/side-salad.jpg"
+  },
+   {
+    "name": "Curry Potatoes",
+    "album": "Entrees",
+    "image": "./images/dinner/herb-pasta.jpg"
+  },
+   {
+    "name": "Herb Pasta",
+    "album": "Entrees",
+    "image": "./images/dinner/herb-pasta.jpg"
+  },
+ {
+   "name": "Paella",
+   "album": "Entrees",
+   "image": "./images/dinner/paella.jpg"
+ },
+  {
+   "name": "Pork Chop",
+   "album": "Entrees",
+   "image": "./images/dinner/pork-chop.jpg"
+ },
+  {
+   "name": "Pot Roast",
+   "album": "Entrees",
+   "image": "./images/dinner/pot-roast.jpg"
+ },
+ {
+   "name": "Salmon",
+   "album": "Entrees",
+   "image": "./images/dinner/salmon.jpg"
+ },
+ {
+   "name": "Berry Pie",
+   "album": "Dessert",
+   "image": "./images/dessert/berry-pie.jpg"
+ },
+  {
+   "name": "Cookies",
+   "album": "Dessert",
+   "image": "./images/dessert/cookies.jpg"
+ },
+ {
+   "name": "Icecream",
+   "album": "Dessert",
+   "image": "./images/dessert/icecream.jpg"
+ },
+ {
+   "name": "Macaroons",
+   "album": "Dessert",
+   "image": "./images/dessert/macaroons.jpg"
+ },
+ {
+   "name": "Pound Cake",
+   "album": "Dessert",
+   "image": "./images/dessert/pound-cake.jpg"
+ },
+ {
+   "name": "Sponge Cake",
+   "album": "Dessert",
+   "image": "./images/dessert/sponge-cake.jpg"
+ }
+ ]
+}

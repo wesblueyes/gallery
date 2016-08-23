@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "JavaScript": {
+      "pronunciation": "ˈjä-vē-skript",
+      "description": "JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification."
+    },
+    "React": {
+      "pronunciation": "rē-ˈakt",
+      "description": "A JavaScript library for building user interfaces."
+    },
+    "Dessert": [{
+      "name": "Pound Cake",
+      "album": "Dessert",
+      "image": "./images/dessert/pound-cake.jpg"
+    }
+  ]
+  }
+}

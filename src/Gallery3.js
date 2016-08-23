@@ -3,13 +3,13 @@ import './Gallery3.css'
 
 class Gallery3 extends Component {
 
-  navigateTo = (event) => {
+  /*navigateTo = (event) => {
     event.preventDefault()
-    this.props.navigate('page')
-  }
+    this.props.navigate('Gallery2')
+  }*/
 
   render () {
-    return (
+    return
 <div>
 <header>
 <div className='back-nav'><a onClick={this.navigateTo} href='#'>&lt; Back to Album</a></div>
@@ -17,7 +17,6 @@ class Gallery3 extends Component {
 </header>
 <div className='one-image'><a href=''><img src='./images/breakfast/donuts.jpg'/></a></div>
 </div>
-)
   }
 }
 

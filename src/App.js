@@ -1,50 +1,58 @@
 import React, { Component } from 'react'
-import Home from './Home' // import your components
-import Page from './Page'
-import Gallery3 from './Gallery3'
-import './App.css'        // import your CSS styling
+import About from './About'
+import Home from './Home'
+import Navigation from './Navigation'
+import Tool from './Tool'
+// webpack let's us import JSON files!
+import data from './data.json'
 
-// begin class definition
 class App extends Component {
-  // custom constructor to set initial state
+
   constructor () {
-    // call super() to inherit from the super class Component
     super()
-    // define initial state of screen
     this.state = {
       currentScreen: 'home'
     }
   }
-  // function to be passed as props to components
-  // in order to return information used to update
-  // the state. Argument passed from components
-  // will be set as current screen state
-  navigateToPage = (scr) => {
-    this.setState({currentScreen: scr})
+
+  // `term` will be undefined on the About page.
+  navigateTo = (screen, term) => {
+    console.log(screen, term)
+    this.setState({
+      currentScreen: screen,
+      currentTerm: term
+    })
   }
+
+  goHome = () => {
+    this.navigateTo('home')
+  }
+
   render () {
+    const terms = Object.keys(data.tools)
     let screen
 
-    // switch statement allows us to change which screen is displayed
-    // based on the current value assigned to the currentScreen key
-    switch (this.state.currentScreen) {
-      // "navigate" prop is used to pass the function navigateToPage() to Home
-      //  and Page components. If the value of currentScreen is not one of the
-      // cases, the view will default to the Home component
-      case 'home': screen = <Home navigate={this.navigateToPage}/>
-        break
-      case 'page': screen = <Page navigate={this.navigateToPage}/>
-        break
-      case 'gallery3': screen = <Gallery3 navigate={this.navigateToPage}/>
-          break
-      default: screen = <Home />
+    // NOTE: This part could be improved with a `switch` statement
+    // rather than a series of `if` conditions.
+    if (this.state.currentScreen === 'about') {
+      screen = <About />
+    } else if (this.state.currentScreen === 'tool') {
+      const details = data.tools[this.state.currentTerm]
+      screen = <Tool term={this.state.currentTerm} details={details} />
+    } else {
+      screen = <Home />
     }
-    // returns a div that contains the current screen view based on the currentScreen
-    // state
-    return <div className='App'>
+
+    return <div className="app">
+      <aside>
+        <h1 onClick={this.goHome}></h1>
+        <Navigation terms={terms} onNavigate={this.navigateTo} />
+      </aside>
+      <main>
         {screen}
-      </div>
+      </main>
+    </div>
   }
 }
-// allows 'App' component to be accessed via import statements in other .js files
+
 export default App
